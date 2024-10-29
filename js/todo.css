@@ -1,0 +1,50 @@
+.name-input{
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.date-input{
+    width: 150px;
+    padding: 5px 10px;
+}
+
+.add-button{
+    padding: 7px 30px;
+    width: 84px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: background-color 100ms;
+}
+.add-button:hover{
+    background-color: rgb(6, 202, 6);
+}
+
+.delete-button{
+    padding: 7px 20px;
+    border: none;
+    background-color: rgb(152, 8, 8);
+    color: white;
+    transition: background-color 100ms;
+}
+.delete-button:hover{
+    background-color:rgb(207, 11, 11)
+}
+
+.name-render-division{
+    padding-left: 25px;
+    width: 200px;
+    display: inline-block;
+}
+.date-render-division{
+    width: 174px;
+    display: inline-block;
+}
+
+.todo-grid, .todo-input-grid{
+    display: grid;
+    grid-template-columns: 220px 174px 84px;
+    padding-top: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
